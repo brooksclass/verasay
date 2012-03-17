@@ -1,0 +1,52 @@
+body { background-color: #777; color: #000; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #000; background-color:#ccc; }
+
+#banner {
+	background: #ccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid;
+	font: small-caps 15px/15px "Times New Roman", serif;
+	color: black;
+	text-align: center;
+}
+
+#lside {
+	float: left;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	width: 16em;
+	background: #fff;
+}
+
+#columns {
+	background: #ddd;
+}
+
+#side a {
+	color: #bfb;
+	font-size: small;
+}
+
+#main {
+	margin-left: 17em;
+	padding-top: 1ex;
+	padding-left: 2em;
+	background: white;
+}

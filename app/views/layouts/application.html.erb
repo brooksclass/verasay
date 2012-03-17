@@ -2,13 +2,36 @@
 <html>
 <head>
   <title>Verasay LLC</title>
+  <%= stylesheet_link_tag "verasay"%>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body id="home">
-  <div id="main">
-    <%= yield %>
-<!-- Comment -->
+
+<body id="page">
+	
+  <div id="banner">
+	<h1>Verasay LLC Homepage - Under Construction</h1>
   </div>
+
+  <div id="columns">
+	
+	<div id="lside">
+	  <a href="https://www.osa.org">OSA</a><br />
+	  <a href="http://www.spie.org">SPIE</a><br />
+	  <a href="http://www.isprs.org">ISPRS</a><br />
+	</div>
+
+    <div id="main">
+      <%= yield %>
+    </div>
+
+	<div id="rside">
+	</div>
+  </div>
+
+  <div id="footer">
+	Copyright 2012, Verasay LLC
+  </div>
+
 </body>
 </html>

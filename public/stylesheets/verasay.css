@@ -1,35 +1,39 @@
 body { background-color: #ccc; color: #000; }
 
 body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: sans-serif, verdana, arial, helvetica;
   font-size:   13px;
   line-height: 18px;
   }
 
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
+colhead {
+	font: 16px/16px sans-serif;
   }
 
-a { color: #000; }
-a:visited { color: #666; }
-a:hover { color: #000; background-color:#ccc; }
+centpar {
+	font: 16px/16px sans-serif;
+	}
+
+a { 
+	color: blue;
+	font-family: sans-serif;
+	}
+a:visited { color: purple; }
+a:hover { color: orange; }
 
 #banner {
 	background: #ccc;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	border-bottom: 2px solid;
-	font: small-caps 15px/15px "Times New Roman", serif;
+	font: small-caps 15px/15px sans-serif;
 	color: black;
 	text-align: center;
   }
 
-
 #lside {
 	float: left;
-	width: 10em;
+	width: 15em;
 	padding-top: 1em;
 	padding-left: 1em;
 	padding-bottom: 1em;
@@ -51,18 +55,7 @@ a:hover { color: #000; background-color:#ccc; }
 	background: #fff;
   }
 
-#lside a {
-	color: #000;
-	font-size: small;
-  }
-
-#rside a {
-	color: #000;
-	font-size: small;
-  }
-
 #footer {
-	float: bottom;
 	background: #eee;
 	}
 
@@ -72,4 +65,5 @@ a:hover { color: #000; background-color:#ccc; }
 	background: #fff;
 	height: 50em;
 	text-align: center;
+	float: center;
   }

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title> Welcome </title>
+  <title>Verasay LLC</title>
   <%= stylesheet_link_tag "verasay" %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
 
 <body id="page">
-	
   <div id="banner">
-	<h2>Essence - distilled</h2>
+	<h1>Verasay LLC</h1>
+	<h2>Photonics Engineering</h2>
+  </div>
 	
-  <%
-=begin THIS IS THE HTML THAT ADDS GOOGLE ADS %>
-    <script type="text/javascript"><!--
+<%#    <script type="text/javascript"><!--
     google_ad_client = "ca-pub-6368738255457627";
     /* Test unit */
     google_ad_slot = "3085451485";
@@ -25,25 +25,17 @@
     <script type="text/javascript"
     src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
     </script>
-  <%
-=end %>
-
-  </div>
+%>
 
   <div id="columns">
 	
 	<div id="lside">
-    <colhead>Technology</colhead><br />
-	  <a href="http://www.wikipedia.org/">enter</a><br />
+    <colhead>Contact</colhead><br />
+	  <a href="http://www.linkedin.com/in/brookschilders">LinkedIn </a><br />
     <br />
-	  <colhead>Art</colhead><br />
-	  <a href="http://www.wikipedia.org/">enter</a><br />
-    <br />
-    <colhead>Science</colhead><br />
-	  <a href="http://www.wikipedia.org/">enter</a><br />
 	</div>
-	
-	<div id="rside">
+
+<%#	<div id="rside">
 	  <colhead>Philosophy</colhead><br />
 	  <a href="http://www.wikipedia.org/">enter</a><br />
     <br />
@@ -53,6 +45,7 @@
     <colhead>Literature</colhead><br />
 	  <a href="http://www.wikipedia.org/">enter</a><br />
     </div>
+%>
 
     <div id="main">
       <%= yield %>

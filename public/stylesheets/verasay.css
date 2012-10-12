@@ -61,9 +61,10 @@ a:hover { color: orange; }
 
 #main {
 	padding-top: 1ex;
-	padding-left: 2em;
+	padding-left: 9em;
+	padding-right: 1em;
 	background: #fff;
 	height: 50em;
-	text-align: center;
+	text-align: left;
 	float: center;
   }
